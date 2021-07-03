@@ -37,3 +37,15 @@ p{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.mid-section img{
+    width: 85%;
+}
+.mdiv{
+    width: 50%;
+    padding: 5%;
+}
+.mid-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
