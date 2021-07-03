@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .text-highlight{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .top-left{
@@ -38,14 +41,40 @@ p{
     background-repeat: no-repeat;
 }
 .mid-section img{
-    width: 85%;
+    width: 115%;
 }
 .mdiv{
     width: 50%;
-    padding: 5%;
+    padding: 8%;
 }
 .mid-section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.bdip{
+    box-shadow: 10px 10px 5px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    border-radius: 10px;
+
+    
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fsweb{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#fdmarketing{
+    border-left: 7px solid;
+   border-image: linear-gradient(blue, cyan);
+   border-image-slice: 1;
 }
