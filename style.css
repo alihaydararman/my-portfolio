@@ -1,3 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 h1{
-    background-color: hsl(0, 92%, 48%);
+    font-size: 50px;
+}
+.text-highlight{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.top-left{
+    width: 50%;
+}
+.top-right{
+    width: 50%;
+}
+.top-right img{
+    width: 85%;
+}
+.paddingt{
+    padding-left: 100px;
+}
+p{
+    text-align: justify;
 }
