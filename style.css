@@ -69,6 +69,10 @@ p{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    background-position-x: left;
+    background-clip: content-box;
+    margin-top: -50px;
+    background-position-y: 200px;
 }
 #fsweb{
     border-left: 7px solid;
